@@ -1,0 +1,98 @@
+.icons {
+  font-size: 1.7rem;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 14px 0;
+  border: none
+}
+
+#lightSlider li {}
+
+.demo {
+  width: 100%
+}
+
+ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom: 0
+}
+
+li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%
+}
+
+.stars i {
+  color: #f6d151
+}
+
+.stars span {
+  font-size: 13px
+}
+
+hr {
+  color: #d4d4d4
+}
+
+.badge {
+  padding: 5px !important;
+  padding-bottom: 6px !important
+}
+
+.badge i {
+  font-size: 10px
+}
+
+.profile-image {
+  width: 35px
+}
+
+.comment-ratings i {
+  font-size: 13px
+}
+
+.username {
+  font-size: 12px
+}
+
+.comment-profile {
+  line-height: 17px
+}
+
+.date span {
+  font-size: 12px
+}
+
+.p-ratings i {
+  color: #f6d151;
+  font-size: 12px
+}
+
+.btn-long {
+  padding-left: 35px;
+  padding-right: 35px
+}
+
+
+
+
+.card-body {
+  padding: 0.3rem 0.3rem 0.2rem
+}
+
+.font-16px {
+  font-size: 16px;
+}

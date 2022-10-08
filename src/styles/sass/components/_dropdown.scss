@@ -1,0 +1,23 @@
+.dropdown-toggle { 
+  color: #000;
+  font-size: 16px;
+  padding: 6px 12px;
+
+  &:hover { 
+    color: #fbb72c;
+  }
+}
+.dropdown {
+  &-menu  { 
+    padding: 4px 0px;
+    border-radius: 0px;
+    z-index: 9 !important;
+  
+  }
+  &-item { 
+    &:hover { 
+      color: #fff;
+      background-color: #fbb72c !important;
+    }
+  }
+}

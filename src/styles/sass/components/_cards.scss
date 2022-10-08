@@ -1,0 +1,158 @@
+.category-card { 
+  padding: 24px 12px;
+  position: relative;
+  transition: all 0.1s linear;
+
+  &:hover { 
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  }
+  &__img { 
+    width: 120px;
+    height: 120px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+
+    img { 
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  h2 { 
+    color: #000;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover { 
+      text-decoration: underline;
+    }
+  }
+}
+
+
+// Product Cards 
+.product-card {
+  width: 100%;
+  position: relative;
+  background: #fafafa;
+  box-shadow: 0 2px 7px #dfdfdf;
+}
+
+.product-tumb {
+  padding: 28px;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+
+
+.product-tumb img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-details {
+  padding: 12px;
+}
+
+.product-catagory {
+  color: #ccc;
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.product-details h4 a {
+  font-size: 19px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: #fbb72c;
+}
+
+.product-details p {
+  color: #999;
+  height: 48px;
+  font-size: 15px;
+  overflow: hidden;
+  line-height: 22px;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.product-bottom-details {
+  overflow: hidden;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.product-bottom-details div {
+  float: left;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #fbb72c;
+  font-weight: 600;
+}
+
+.product-price small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.product-links {
+  text-align: right;
+
+  span { 
+    cursor: pointer;
+    color: #ddd;
+    margin: 0px 6px;
+    transition: all 0.2s linear;
+   
+    &.active,
+    &:hover { 
+      color: #fbb72c;
+    }
+
+    &:nth-last-child(1) {
+      margin-right: 0px;
+    }
+  }
+}
+
+.product-links a {
+  margin-left: 5px;
+  color: #e1e1e1;
+  transition: 0.3s;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.product-links a:hover {
+  color: #fbb72c;
+}
+
+

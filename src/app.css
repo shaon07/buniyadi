@@ -1,0 +1,23 @@
+.w-55 {
+  width: 55%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.red {
+  color: red !important;
+}
+
+.product-found-wrapper {
+  padding: 0 0.7rem;
+  margin-bottom: -20px;
+}
+
+.empty-cart-img {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+
+}

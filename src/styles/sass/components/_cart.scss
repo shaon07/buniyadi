@@ -1,0 +1,153 @@
+.cart { 
+  position: relative;
+
+  & > h2 { 
+    border-bottom: 1px solid #ccc;
+  }
+
+  .cart-table { 
+    border: 0px;
+    max-height: 480px;
+
+    td,th ,tr { 
+      border: 0px;
+    }
+
+    thead { 
+      border-bottom: 1px solid #ccc;
+      tr { 
+        th { 
+          font-size: 16px;
+          line-height: 21px;
+          padding: 8px 12px;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+      }
+    }
+    tbody { 
+      tr { 
+         td { 
+          padding: 12px 8px;
+         }
+      }
+    }
+    .table { 
+      &-column-lg { 
+        width: 300px;
+      }
+
+      &-column-md { 
+        width: 150px;
+      }
+
+
+    }
+  }
+}
+
+.table-responsive  { 
+  max-height: 480px;
+  position: relative;
+  overflow-y: scroll;
+  margin-right: -24px;
+}
+
+.product-cart { 
+  &__img { 
+    width: 120px;
+    height: 60px;
+    margin-bottom: 6px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__info { 
+    h2 { 
+      font-size: 16px;
+      line-height: 24px;
+      text-transform: capitalize;
+    }
+
+    p { 
+      margin: 0px;
+      font-size: 9px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+  }
+
+  // fonts size 
+  &-price,
+  &-total{ 
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+  }
+
+  &-counter { 
+    display: flex;
+    border: 1px solid #ddd;
+    justify-content: space-between;
+
+    button { 
+    padding: 8px;
+    max-width: 40px;
+    }
+
+    button.inc { 
+      border-left: 1px solid #ddd;
+    }
+    button.dec { 
+      border-right: 1px solid #ddd;
+    }
+    input { 
+      max-width: 40px;
+      padding: 0px 4px;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+    }
+  }
+
+  &-remove {
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-transform: capitalize;
+    background-color: rgb(243, 65, 65);
+
+    svg { 
+      margin-right: 8px;
+    }
+  }
+
+
+}
+
+.product-cart-details { 
+
+  ul { 
+    display: flex;
+    flex-direction: column;
+    li{ 
+      display: flex;
+      padding: 6px 4px;
+      align-items: center;
+      justify-content: space-between;
+      &:nth-last-child(1) { 
+        padding: 8px 4px;
+        background-color: #fbb72c;
+      }
+      p { 
+        margin: 0px;
+      }
+    }
+  }
+}
